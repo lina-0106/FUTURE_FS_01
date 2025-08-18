@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 200;
+  padding: 200;
+  scroll-behavior: smooth; /* 🔥 smooth scroll */
+}
+
+.resume download{
+  display: inline-block;
+  background-color:1a4db8;
+  color: rgb(15, 15, 15);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume:hover {
+  background-color:#f206b7;
+}
+
+.app download{
+  display: inline-block;
+  background-color:1a4db8;
+  color: rgb(15, 15, 15);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.app:hover {
+  background-color:#f206b7;
+}
+
+.doozy download{
+  display: inline-block;
+  background-color:1a4db8;
+  color: rgb(15, 15, 15);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.doozy download:hover {
+  background-color:#f206b7;
+}
+
+.css download{
+  display: inline-block;
+  background-color:1a4db8;
+  color: rgb(15, 15, 15);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.css download:hover {
+  background-color:#f206b7;
+}
+
+.digital download{
+  display: inline-block;
+  background-color:1a4db8;
+  color: rgb(15, 15, 15);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.digital download:hover {
+  background-color:#f206b7;
+}
+
+.c download{
+  display: inline-block;
+  background-color:1a4db8;
+  color: rgb(15, 15, 15);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c download:hover {
+  background-color:#f206b7;
+}
+
+.card img{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-right:20px;
+  border:3px solid #f206b7;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background: #333;
+  padding: 10px 0;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 100;
+  padding: 100;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color:violet;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f206b7;
+}
+
+.project-card{
+  background: rgb(236, 230, 236);
+  color: #000;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.project-container{
+  display: -webkit-inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.cert-container {
+  display: -webkit-inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.cert-card {
+  background: rgb(236, 230, 236);
+  color: #000;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+}
+
+.cert-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.skill-container{
+  display:-webkit-inline-flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.skill-card{
+  background:rgb(235, 231, 235);
+  color: #000;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#home { background: honeydew; }
+#about { background: beige; }
+#education{ background: honeydew;}
+#skills { background:beige; }
+#projects { background:honeydew; }
+#certifications { background: beige; }
+#work { background:honeydew; }
+#contact { background:beige; }
