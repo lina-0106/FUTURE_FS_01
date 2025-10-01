@@ -203,11 +203,12 @@ section {
   text-align: center;
 }
 
-#home { background: honeydew; }
-#about { background: beige; }
+#home { background: pink; }
+#about { background: ash; }
 #education{ background: honeydew;}
 #skills { background:beige; }
 #projects { background:honeydew; }
 #certifications { background: beige; }
 #work { background:honeydew; }
+
 #contact { background:beige; }
